@@ -1,0 +1,182 @@
+repo_name: naywintx/ChatSecureAndroid
+report_id: 678d4c3c959e3c16dfc57ccd08d0aecc
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:31:05+00:00'
+requested_by: eighthave
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Raphael Michel
+  last_updated_on: 2015-01-05 01:05:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: 4.8.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: devrandom
+  last_updated_on: 2012-01-04 05:15:25.000000000 Z
+- name: Robolectric
+  description: An open-source testing framework for Android
+  website_url: http://robolectric.org/
+  version: '1.1'
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2022/OavapKft_400x400.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: devrandom
+  last_updated_on: 2012-01-04 05:15:25.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid
+  detection_source: Repo Metadata
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: devrandom
+  last_updated_on: 2012-01-04 05:15:25.000000000 Z
+  vulnerabilities:
+  - name: Uncaught Exception in jsoup
+    cve_id: CVE-2021-37714
+    cve_url: https://github.com/advisories/GHSA-m72m-mhq2-9p6c
+    detected_date: Aug 24
+    severity: high
+    first_patched: 1.14.2
+  - name: jsoup may not sanitize code injection XSS attempts if SafeList.preserveRelativeLinks
+      is enabled
+    cve_id: CVE-2022-36033
+    cve_url: https://github.com/advisories/GHSA-gp7f-rwcx-9369
+    detected_date: Sep 2
+    severity: moderate
+    first_patched: 1.15.3
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: 4.8.2
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: devrandom
+  last_updated_on: 2012-01-04 05:15:25.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: com.google.android:android
+  description: A library jar that provides APIs for Applications written for the Google
+    Android Platform
+  version: 2.2.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Raphael Michel
+  last_updated_on: 2015-01-05 01:05:53.000000000 Z
+- name: com.pivotallabs:robolectric
+  description: An alternative Android testing framework
+  version: '1.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: devrandom
+  last_updated_on: 2012-01-04 05:15:25.000000000 Z
+- name: org.easymock:easymock
+  description: EasyMock provides an easy way to create Mock Objects for interfaces
+    and classes generating them on the fly
+  version: '3.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/ChatSecureAndroid/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: devrandom
+  last_updated_on: 2012-01-04 05:15:25.000000000 Z
